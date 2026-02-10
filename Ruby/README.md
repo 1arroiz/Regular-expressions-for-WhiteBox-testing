@@ -19,7 +19,7 @@
 ## Sql Injection
 
 ```
-\b(ActiveRecord::Base\.connection\.execute|find_by_sql|where|order|pluck|select)\b.*(\+|#{|%|\?)|\b(SELECT|INSERT|UPDATE|DELETE|DROP|ALTER|CREATE|TRUNCATE)\b
+\b(ActiveRecord::Base\.connection\.execute|find_by_sql|where|order|pluck|select)\b.*(\+|#\{|%|\?)|\b(SELECT|INSERT|UPDATE|DELETE|DROP|ALTER|CREATE|TRUNCATE)\b
 ```
 
 ## NoSQL Injection
